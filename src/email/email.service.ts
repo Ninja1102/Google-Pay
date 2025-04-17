@@ -14,8 +14,8 @@ export class EmailService {
       port: 587,                        // SMTP port
       secure: false,                    // use TLS
       auth: {
-        user: 'sklallucination@gmail.com', // SMTP username
-        pass: 'putyourpasswordbro',    // SMTP password
+        user: 'haripiya.112003@gmail.com', // SMTP username
+        pass: 'password',    // SMTP password
       },
     });
   }
@@ -28,8 +28,8 @@ export class EmailService {
     type: string;
   }): Promise<void> {
     // For demo, use hard-coded emails; in a real app, lookup emails by senderId/receiverId.
-    const senderEmail = 'sklallucination@gmail.com';
-    const receiverEmail = 'sklallucination@gmail.com';
+    const senderEmail = 'haripiya.112003@gmail.com';
+    const receiverEmail = 'haripiya.112003@gmail.com';
 
     const mailOptions = {
       from: '"Google Pay App" <no-reply@googlepayapp.com>',
